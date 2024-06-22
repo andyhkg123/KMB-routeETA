@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="./index.css" />
-
     <title>KMB</title>
   </head>
   <body>
@@ -17,7 +15,6 @@
         style="height: 100px; width: 300px; object-fit: cover; margin: 15px"
       />
     </div>
-    <!-- --------tailwind search button -->
     <div
       class="rounded-xl flex border-2 border-blue-500 overflow-hidden max-w-md mx-auto font-[sans-serif]"
     >
@@ -35,24 +32,21 @@
         Search
       </button>
     </div>
-
-    <!-- --------tailwind search button -->
-    <div class="routeSearchedList flex justify-center m">
-      <!-- <button
-        class="mt-1.5 align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none mx-0.5"
-        type="button"
-        data-ripple-light="true"
+    <div id="loading" class="hidden flex justify-center mt-4">
+      <div
+        class="spinner-border animate-spin inline-block w-8 h-8 border-4 rounded-full"
+        role="status"
       >
-        Ripple Effect On
-      </button> -->
+        <span class="visually-hidden">Loading...</span>
+      </div>
     </div>
+    <div class="routeSearchedList flex justify-center m"></div>
     <div class="flex flex-col items-center">
       <div
         class="stopList22 w-100 flex flex-col mt-1.5 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
       ></div>
     </div>
     <div class="etaList"></div>
+    <script src="index.js"></script>
   </body>
-
-  <script src="index.js"></script>
 </html>
