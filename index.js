@@ -57,7 +57,7 @@ searchBtn.addEventListener("click", function () {
         }
       }
       if (!routeChecked.length) {
-        alert("bus route is not found");
+        alert("Bus route is not found");
         searchbox.value = "";
       }
       console.log(routeChecked);
