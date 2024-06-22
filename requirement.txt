@@ -1,0 +1,10 @@
+OK------Bus number validation
+OK------Available route presentation
+OK------Route listing
+OK------Real-time ETA presentation
+OK------Can input for another bus number anytime 
+OK------Can pick another route anytime
+Loading state
+OK------Error handling
+OK------Nice Styling - favicon / title / logo / layout design etc.
+OK------Deploy on Github, submit Github deployed link

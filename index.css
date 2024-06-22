@@ -1,0 +1,19 @@
+.kmbLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.etaList {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  display: none;
+}
+
+.etaList.show {
+  display: flex;
+  position: sticky;
+  bottom: 40%;
+}
